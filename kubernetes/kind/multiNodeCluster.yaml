@@ -6,5 +6,22 @@ nodes:
 - role: control-plane
 # the three workers
 - role: worker
+  extraPortMappings:
+  - containerPort: 30081
+    hostPort: 30081
 - role: worker
+  extraPortMappings:
+  - containerPort: 30082
+    hostPort: 30082
 - role: worker
+  extraPortMappings:
+  - containerPort: 30080
+    hostPort: 30080
+- role: worker
+  extraPortMappings:
+  - containerPort: 30083
+    hostPort: 30083
+- role: worker
+  extraPortMappings:
+  - containerPort: 30084
+    hostPort: 30084

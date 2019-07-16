@@ -50,7 +50,6 @@ kind create cluster　--config multiNodeCluster.yaml
 ```
 
 ### クラスタ外部にポート開ける
-* ノードごとにアドレス異なるため、ListenAddressの設定必要。
 
 ```
 kind: Cluster
