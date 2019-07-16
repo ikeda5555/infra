@@ -37,3 +37,5 @@
 * VirtualService作成
 * https://istio.io/docs/tasks/traffic-management/request-routing/
 * kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
+### モニタリング
+* https://istio.io/docs/tasks/telemetry/metrics/using-istio-dashboard/
